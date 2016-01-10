@@ -1,0 +1,1 @@
+这两文文件说明设置Button背景图片，以及图片的偏移不是border-image设置的偏移或者background-image

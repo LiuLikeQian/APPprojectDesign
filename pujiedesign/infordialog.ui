@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InforDialog</class>
+ <widget class="QDialog" name="InforDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>391</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>员工甲                     一级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/lisi.png</normaloff>:/image/lisi.png</iconset>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsUserCheckable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工乙                     二级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/wujiu.png</normaloff>:/image/wujiu.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工丙                     一级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/sunqi.png</normaloff>:/image/sunqi.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工丁                     三级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhaoliu.png</normaloff>:/image/zhaoliu.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工戊                     高级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/wangwu.png</normaloff>:/image/wangwu.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工己                     初级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhangsan.png</normaloff>:/image/zhangsan.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工庚                     顶级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhouba.png</normaloff>:/image/zhouba.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工辛                     二级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhengshi.png</normaloff>:/image/zhengshi.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工壬                     一级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/xiongda.png</normaloff>:/image/xiongda.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工葵                     高级员工</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhengshi.png</normaloff>:/image/zhengshi.png</iconset>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>521</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/background_meitu_2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AllInforButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>60</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>全体通知</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="EditInforButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>140</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>编辑通知</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SingleInforButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>260</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送通知</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReturnButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>330</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>AllInforButton</zorder>
+  <zorder>EditInforButton</zorder>
+  <zorder>SingleInforButton</zorder>
+  <zorder>ReturnButton</zorder>
+  <zorder>listWidget</zorder>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

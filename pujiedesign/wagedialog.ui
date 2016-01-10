@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WageDialog</class>
+ <widget class="QDialog" name="WageDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>489</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>25</y>
+     <width>390</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>员工甲                        4500</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/lisi.png</normaloff>:/image/lisi.png</iconset>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsUserCheckable|ItemIsEnabled</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工乙                        4000</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/wujiu.png</normaloff>:/image/wujiu.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工丙                        4500</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/sunqi.png</normaloff>:/image/sunqi.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工丁                        3500</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhaoliu.png</normaloff>:/image/zhaoliu.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工戊                        5500</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/wangwu.png</normaloff>:/image/wangwu.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工己                        5000</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhangsan.png</normaloff>:/image/zhangsan.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工庚                        6000</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhouba.png</normaloff>:/image/zhouba.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工辛                        4000</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/zhengshi.png</normaloff>:/image/zhengshi.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工壬                        4500</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/xiongda.png</normaloff>:/image/xiongda.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>员工葵                        5500</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources.qrc">
+      <normaloff>:/image/manage.ico</normaloff>:/image/manage.ico</iconset>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="SeeWageButton">
+   <property name="geometry">
+    <rect>
+     <x>405</x>
+     <y>113</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看工资</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReturnButton">
+   <property name="geometry">
+    <rect>
+     <x>405</x>
+     <y>249</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>491</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/background_meitu_2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>listWidget</zorder>
+  <zorder>SeeWageButton</zorder>
+  <zorder>ReturnButton</zorder>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
